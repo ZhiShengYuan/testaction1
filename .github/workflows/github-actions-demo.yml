@@ -6,4 +6,4 @@ jobs:
     steps:
       - run: lscpu
       - run: free -m
-      - run: dh -Th
+      - run: df -Th
