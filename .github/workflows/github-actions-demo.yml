@@ -8,4 +8,4 @@ jobs:
       - run: free -m
       - run: df -Th
       - run: sudo apt install curl -y
-      - run: curl https://raw.githubusercontent.com/LemonBench/LemonBench/master/LemonBench.sh | bash -s fast
+      - run: curl https://raw.githubusercontent.com/LemonBench/LemonBench/master/LemonBench.sh | sudo bash -s fast
